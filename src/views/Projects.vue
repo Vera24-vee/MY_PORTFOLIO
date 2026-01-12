@@ -324,8 +324,8 @@ const projects = [
     status: "completed",
     description:
       "A full-stack inventory and sales management system for Karibu Groceries LTD, supporting procurement, cash sales, credit sales, and real-time stock tracking across two branches. The system replaces manual record-keeping with a centralized, role-based web application.",
-    image: "/src/assets/karibu.jpg",
-    screenshots: ["/src/assets/karibu.jpg", "/src/assets/karibu2.jpg"],
+    image: "/karibu.jpg",
+    screenshots: ["/karibu.jpg", "/karibu2.jpg"],
     technologies: [
       "Node.js",
       "Express.js",
@@ -389,10 +389,10 @@ const projects = [
     status: "completed",
     description:
       "A comprehensive management system for kindergarten operations, featuring student registration, attendance tracking, and administrative functions. Built with a focus on user authentication and data security.",
-    image: "/src/assets/projects/kindergatten.png",
+    image: "/projects/kindergatten.png",
     screenshots: [
-      "/src/assets/projects/kindergatten.png",
-      "/src/assets/projects/kindergatte.png",
+      "/projects/kindergatten.png",
+      "/projects/kindergatte.png",
     ],
     technologies: [
       "Node.js",
@@ -449,11 +449,11 @@ const projects = [
     status: "completed",
     description:
       "A modern, responsive portfolio showcasing my journey from social impact to software development. Built with Vue 3 and Vuetify, featuring dark/light mode toggle and interactive components.",
-    image: "/src/assets/projects/portfolio.png",
+    image: "/projects/portfolio.png",
     screenshots: [
-      "/src/assets/projects/portfolio.png",
-      "/src/assets/projects/portfolio2.png",
-      "/src/assets/projects/portfolio3.png",
+      "/projects/portfolio.png",
+      "/projects/portfolio2.png",
+      "/projects/portfolio3.png",
     ],
     technologies: ["Vue 3", "Vuetify", "Vite", "CSS3", "Responsive Design"],
     highlights: [
@@ -501,8 +501,8 @@ const projects = [
     status: "in-progress",
     description:
       "Full-stack race management platform with React frontend and Node.js backend. Supported deployment, UI development, and backend configuration with Docker containers and Nginx routing.",
-    image: "/src/assets/projects/race.png",
-    screenshots: ["/src/assets/projects/race.png", "/src/assets/projects/race2.png", "/src/assets/projects/race3.png"],
+    image: "/projects/race.png",
+    screenshots: ["/projects/race.png", "/projects/race2.png", "/projects/race3.png"],
     technologies: ["React", "TypeScript", "Node.js", "Docker", "Docker Compose", "Nginx", "Linux", "API Testing"],
     highlights: [
       "Full-stack development with React and TypeScript",
