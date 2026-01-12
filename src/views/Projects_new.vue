@@ -545,52 +545,6 @@ const projects = [
     githubLink: "https://github.com/Vera24-vee/wordpress-projects",
     demoLink: "#",
   },
-  // {
-  //   id: 6,
-  //   title: "Community Impact Tracker",
-  //   status: "planned",
-  //   description:
-  //     "A web application for tracking and visualizing community development initiatives. This project will combine my experience in data collection with modern web technologies to help organizations measure their social impact. Development will begin soon.",
-  //   image: "/src/assets/projects/impact-tracker-screenshot.jpg",
-  //   technologies: ["Vue.js", "Node.js", "MongoDB", "Chart.js", "RESTful APIs"],
-  //   keyFeatures: [
-  //     "Interactive data visualization",
-  //     "Customizable impact metrics",
-  //     "User authentication and role management",
-  //     "Data export functionality",
-  //     "Real-time updates and reporting",
-  //   ],
-  //   highlights: [
-  //     "Real-time data visualization for impact metrics",
-  //     "Secure user authentication and data management",
-  //     "Customizable reporting and analytics",
-  //   ],
-  //   githubLink: "https://github.com/yourusername/impact-tracker",
-  //   demoLink: "#",
-  // },
-  // {
-  //   id: 7,
-  //   title: "Learning Management System",
-  //   status: "planned",
-  //   description:
-  //     "A platform for managing and delivering educational content to rural communities. This project will integrate my experience in community development with modern web technologies to make learning more accessible. Development will begin after the Community Impact Tracker.",
-  //   image: "/src/assets/projects/lms-screenshot.jpg",
-  //   technologies: ["Vue.js", "Express.js", "MongoDB", "WebSocket", "JWT Auth"],
-  //   keyFeatures: [
-  //     "Offline content access",
-  //     "Progress tracking",
-  //     "Interactive learning modules",
-  //     "Community discussion forums",
-  //     "Mobile-first design",
-  //   ],
-  //   highlights: [
-  //     "Offline-first approach for areas with limited internet",
-  //     "Interactive learning modules with progress tracking",
-  //     "Community engagement features",
-  //   ],
-  //   githubLink: "https://github.com/yourusername/community-lms",
-  //   demoLink: "#",
-  // },
 ];
 
 const upcomingProjects = [
