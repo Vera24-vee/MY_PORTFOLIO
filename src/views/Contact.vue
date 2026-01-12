@@ -114,6 +114,19 @@
               </v-list-item>
               <v-list-item>
                 <template v-slot:prepend>
+                  <v-icon color="var(--deep-navy)">mdi-phone</v-icon>
+                </template>
+                <v-list-item-title>Phone</v-list-item-title>
+                <v-list-item-subtitle>
+                  <a
+                    href="tel:+256705508270"
+                    style="color: var(--deep-navy); text-decoration: none"
+                    >+256 705 508 270</a
+                  >
+                </v-list-item-subtitle>
+              </v-list-item>
+              <v-list-item>
+                <template v-slot:prepend>
                   <v-icon color="var(--deep-navy)">mdi-map-marker</v-icon>
                 </template>
                 <v-list-item-title>Location</v-list-item-title>
@@ -198,25 +211,19 @@ const socialLinks = [
   {
     name: "GitHub",
     icon: "mdi-github",
-    link: "https://github.com/yourusername",
+    link: "https://github.com/Vera24-vee",
     color: "var(--deep-navy)",
   },
   {
     name: "LinkedIn",
     icon: "mdi-linkedin",
-    link: "https://linkedin.com/in/yourusername",
+    link: "https://linkedin.com/in/kabwaga-veronica-amooti",
     color: "var(--deep-navy)",
   },
   {
-    name: "Twitter",
-    icon: "mdi-twitter",
-    link: "https://twitter.com/yourusername",
-    color: "var(--deep-navy)",
-  },
-  {
-    name: "Instagram",
-    icon: "mdi-instagram",
-    link: "https://instagram.com/yourusername",
+    name: "Portfolio",
+    icon: "mdi-web",
+    link: "https://my-portfolio-fzfl.onrender.com/",
     color: "var(--deep-navy)",
   },
 ];

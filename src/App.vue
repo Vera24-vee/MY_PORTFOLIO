@@ -140,17 +140,17 @@ const socialIcons = [
   {
     name: "github",
     icon: "mdi-github",
-    link: "https://github.com/yourusername",
+    link: "https://github.com/Vera24-vee",
   },
   {
     name: "linkedin",
     icon: "mdi-linkedin",
-    link: "https://linkedin.com/in/yourusername",
+    link: "https://linkedin.com/in/kabwaga-veronica-amooti",
   },
   {
-    name: "twitter",
-    icon: "mdi-twitter",
-    link: "https://twitter.com/yourusername",
+    name: "portfolio",
+    icon: "mdi-web",
+    link: "https://my-portfolio-fzfl.onrender.com/",
   },
 ];
 

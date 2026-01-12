@@ -21,13 +21,13 @@
           <v-card-text>
             <div class="mb-4">
               <h3 class="text-h6" style="color: var(--deep-navy)">
-                Ground Breaker Talents Scholar
+                Software Engineering Certificates
               </h3>
               <p class="text-body-1" style="color: var(--dark-gray)">
-                • Currently studying at Refactory Academy (Jan 2024 - May
-                2024)<br />
+                • Certificate in Software Engineering - Refactory Academy (2025)<br />
+                • Certificate in Product Management - Refactory Academy (2025)<br />
                 • Comprehensive full-stack development training<br />
-                • Upcoming apprenticeship program
+                • Current Software Engineering Apprentice
               </p>
             </div>
             <div>
@@ -35,8 +35,8 @@
                 Makerere University
               </h3>
               <p class="text-body-1" style="color: var(--dark-gray)">
-                • Bachelor of Social Sciences in Political Science and Sociology
-                (2022)
+                • Bachelor of Social Sciences International Relations and Sociology
+                (2023)
               </p>
             </div>
           </v-card-text>

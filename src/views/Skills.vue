@@ -163,73 +163,81 @@
 
 <script setup>
 const frontendSkills = [
-  "Vue.js",
+  "Vue 3",
+  "React",
+  "TypeScript",
+  "Vuetify",
+  "Tailwind CSS",
   "HTML5",
   "CSS3",
   "JavaScript",
+  "WordPress",
   "Responsive Design",
   "UI/UX Principles",
-  "Vuetify",
-  "Tailwind CSS",
 ];
 
 const backendSkills = [
   "Node.js",
   "Express.js",
+  "NestJS",
   "MongoDB",
+  "PostgreSQL",
   "RESTful APIs",
-  "Database Design",
   "Authentication",
-  "API Integration",
+  "CRUD Operations",
 ];
 
 const toolsSkills = [
   "Git & GitHub",
-  "Agile Methodology",
-  "VS Code",
-  "Postman",
-  "MongoDB Compass",
+  "Docker & Docker Compose",
+  "Linux (Ubuntu)",
+  "Nginx",
+  "CI/CD",
   "Figma",
-  "Data Analysis Tools",
+  "Visily",
+  "Balsamiq",
+  "Jira",
+  "Slack",
+  "Agile/Scrum",
 ];
 
 const socialSkills = [
+  "UI/UX Design & Prototyping",
+  "Manual & API Testing",
   "Community Engagement",
   "Project Management",
   "Data Collection & Analysis",
-  "Stakeholder Communication",
-  "Impact Assessment",
-  "User Research",
+  "User Feedback Analysis",
   "Problem-Solving",
 ];
 
 const professionalSkills = [
-  "Team Leadership",
-  "Strategic Planning",
-  "Client Relations",
+  "DevOps & Deployment",
+  "Linux System Administration",
+  "Team Collaboration",
   "Technical Documentation",
-  "Cross-functional Collaboration",
-  "Adaptability",
+  "Quality Assurance",
+  "Agile Workflows",
   "Critical Thinking",
 ];
 
 const learningJourney = [
   {
-    title: "Technical Foundation",
+    title: "Current Apprenticeship",
     description:
-      "Building expertise in full-stack development through Refactory Academy's intensive program",
-    color: "var(--deep-navy)",
-  },
-  {
-    title: "Current Focus",
-    description:
-      "Integrating social impact experience with technical skills to create meaningful solutions",
+      "Software Engineering Apprentice focusing on DevOps, containerization, and backend deployment",
     color: "var(--gold-accent)",
   },
   {
-    title: "Future Vision",
+    title: "Technical Certifications",
     description:
-      "Developing technology solutions that address real community needs and drive social impact",
+      "Completed Software Engineering and Product Management certificates at Refactory Academy",
+    color: "var(--deep-navy)",
+  },
+  {
+    title: "Continuous Learning",
+    description:
+      "Expanding skills in Python, AI fundamentals, and advanced front-end development",
     color: "var(--deep-navy)",
   },
 ];

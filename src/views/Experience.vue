@@ -111,19 +111,50 @@
 <script setup>
 const allRoles = [
   {
-    title: "Ground Breaker Talents Scholar",
-    company: "Refactory Academy",
-    period: "Jan 2024 - Present",
+    title: "Software Engineering Apprentice",
+    company: "Refactory Academy / OneSpan Consults Limited",
+    period: "Aug 2025 - Dec 2025",
     description:
-      "Intensive full-stack development program focusing on modern web technologies and software engineering principles",
+      "Installing, configuring, and deploying backend services in Linux environments with focus on containerization and automation",
     icon: "mdi-code-braces",
     color: "var(--deep-navy)",
     isCurrent: true,
     achievements: [
-      "Mastering full-stack development with Vue.js, Node.js, and MongoDB",
-      "Building responsive web applications with modern UI/UX principles",
-      "Implementing RESTful APIs and database design",
-      "Applying agile methodologies in project development",
+      "Installed, configured, and deployed backend services in Linux environments",
+      "Containerized applications using Docker and Docker Compose",
+      "Configured Nginx for reverse proxy and routing",
+      "Assisted with automation scripts, manual QA testing, and bug reporting",
+      "Collaborated with developers using Git and Agile workflows",
+    ],
+  },
+  {
+    title: "Student Fellow",
+    company: "Women Ascension Leadership Programme (Remote)",
+    period: "Aug 2025 - Nov 2025",
+    description:
+      "Completed beginner training in Python, AI fundamentals, and chatbot development with focus on technical growth",
+    icon: "mdi-school",
+    color: "var(--deep-navy)",
+    achievements: [
+      "Completed beginner training in Python programming",
+      "Learned AI fundamentals and chatbot development",
+      "Participated in mentorship focused on technical growth and teamwork",
+      "Enhanced problem-solving and analytical thinking skills",
+    ],
+  },
+  {
+    title: "Student Ambassador",
+    company: "indEx Software Tech Limited (Voluntary)",
+    period: "Jul 2025 - Oct 2025",
+    description:
+      "Supported technical outreach and gathered user feedback for product improvement initiatives",
+    icon: "mdi-account-voice",
+    color: "var(--deep-navy)",
+    achievements: [
+      "Supported technical outreach and community engagement",
+      "Gathered user feedback for product improvement",
+      "Facilitated communication between users and development team",
+      "Contributed to user experience enhancement initiatives",
     ],
   },
   {

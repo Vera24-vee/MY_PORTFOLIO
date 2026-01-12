@@ -7,10 +7,10 @@
           Kabwaga Veronica Amooti
         </h1>
         <h2 class="text-h4 mb-6" style="color: #333333">
-          Full-Stack Developer & Social Impact Advocate
+          Front-End Developer & Software Engineer
         </h2>
         <p class="text-h6 mb-8" style="color: #333333">
-          Bridging Technology with Community Development
+          Creating Accessible, Mission-Driven Digital Solutions
         </p>
         <div class="d-flex flex-wrap gap-4">
           <v-btn color="#1A237E" size="large" to="/about" class="action-btn">
@@ -62,7 +62,7 @@
               Technical Expertise
             </h3>
             <p class="text-body-1" style="color: #333333">
-              Full-stack development with Vue.js, Node.js, and MongoDB
+              Front-end expertise with Vue.js, Vuetify, and responsive design
             </p>
           </v-col>
           <v-col cols="12" md="4" class="text-center">
@@ -80,7 +80,7 @@
             >
             <h3 class="text-h5 mb-2" style="color: #333333">Current Focus</h3>
             <p class="text-body-1" style="color: #333333">
-              Ground Breaker Talents Scholar at Refactory Academy
+              Software Engineering Apprentice at OneSpan Consults
             </p>
           </v-col>
         </v-row>

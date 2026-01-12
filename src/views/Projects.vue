@@ -324,12 +324,8 @@ const projects = [
     status: "completed",
     description:
       "A full-stack inventory and sales management system for Karibu Groceries LTD, supporting procurement, cash sales, credit sales, and real-time stock tracking across two branches. The system replaces manual record-keeping with a centralized, role-based web application.",
-    image: "/src/assets/projects/karibu-groceries.jpg",
-    screenshots: [
-      "/src/assets/projects/karibu-groceries.jpg",
-      "/src/assets/projects/karibu-groceries-inventory.jpg",
-      "/src/assets/projects/karibu-groceries-sales.jpg",
-    ],
+    image: "/src/assets/karibu.jpg",
+    screenshots: ["/src/assets/karibu.jpg", "/src/assets/karibu2.jpg"],
     technologies: [
       "Node.js",
       "Express.js",
@@ -393,11 +389,10 @@ const projects = [
     status: "completed",
     description:
       "A comprehensive management system for kindergarten operations, featuring student registration, attendance tracking, and administrative functions. Built with a focus on user authentication and data security.",
-    image: "/src/assets/projects/kindergarten-app.jpg",
+    image: "/src/assets/projects/kindergatten.png",
     screenshots: [
-      "/src/assets/projects/kindergarten-app.jpg",
-      "/src/assets/projects/kindergarten-attendance.jpg",
-      "/src/assets/projects/kindergarten-admin.jpg",
+      "/src/assets/projects/kindergatten.png",
+      "/src/assets/projects/kindergatte.png",
     ],
     technologies: [
       "Node.js",
@@ -450,15 +445,65 @@ const projects = [
   },
   {
     id: 3,
-    title: "Portfolio Website",
+    title: "Race Management System",
     status: "in-progress",
     description:
-      "A modern, responsive portfolio showcasing my journey from social impact to software development. Currently under development with a focus on creating an engaging user experience.",
-    image: "/src/assets/projects/portfolio-screenshot.jpg",
+      "Full-stack race management platform with React frontend and Node.js backend. Supported deployment, UI development, and backend configuration with Docker containers and Nginx routing.",
+    image: "/src/assets/projects/race.png",
+    screenshots: ["/src/assets/projects/race.png", "/src/assets/projects/race2.png", "/src/assets/projects/race3.png"],
+    technologies: ["React", "TypeScript", "Node.js", "Docker", "Docker Compose", "Nginx", "Linux", "API Testing"],
+    highlights: [
+      "Full-stack development with React and TypeScript",
+      "Backend service deployment in Linux environments",
+      "Docker containerization and orchestration",
+      "Frontend UI development and API integration",
+      "Payment workflow verification",
+    ],
+    keyFeatures: [
+      "React frontend with TypeScript",
+      "Responsive user interface design",
+      "API integration and state management",
+      "Containerized application deployment",
+      "Nginx reverse proxy configuration",
+      "Authentication and authorization testing",
+    ],
+    githubLink: "https://github.com/Vera24-vee/race-management",
+    demoLink: "#",
+  },
+  {
+    id: 4,
+    title: "WordPress Project",
+    status: "in-progress",
+    description:
+      "Created small-scale responsive websites with theme customization and plugin integration. Enhanced user experience through responsive design and accessibility features.",
+    image: "/src/assets/projects/wordpress-projects.jpg",
+    technologies: ["WordPress", "PHP", "CSS", "HTML", "Responsive Design"],
+    highlights: [
+      "Theme customization and responsive design",
+      "Plugin integration and configuration",
+      "User experience enhancement",
+      "Accessibility improvements",
+    ],
+    keyFeatures: [
+      "Custom theme development",
+      "Responsive page layouts",
+      "Plugin integration",
+      "SEO optimization",
+    ],
+    githubLink: "https://github.com/Vera24-vee/wordpress-projects",
+    demoLink: "#",
+  },
+  {
+    id: 5,
+    title: "Portfolio Website",
+    status: "completed",
+    description:
+      "A modern, responsive portfolio showcasing my journey from social impact to software development. Built with Vue 3 and Vuetify, featuring dark/light mode toggle and interactive components.",
+    image: "/src/assets/projects/portfolio.png",
     screenshots: [
-      "/src/assets/projects/portfolio-screenshot.jpg",
-      "/src/assets/projects/portfolio-mobile.jpg",
-      "/src/assets/projects/portfolio-dark-mode.jpg",
+      "/src/assets/projects/portfolio.png",
+      "/src/assets/projects/portfolio2.png",
+      "/src/assets/projects/portfolio3.png",
     ],
     technologies: ["Vue 3", "Vuetify", "Vite", "CSS3", "Responsive Design"],
     highlights: [
@@ -473,8 +518,8 @@ const projects = [
       "Modern UI with smooth transitions",
       "SEO optimized structure",
     ],
-    githubLink: "https://github.com/yourusername/portfolio",
-    demoLink: "https://your-portfolio-url.com",
+    githubLink: "https://github.com/Vera24-vee",
+    demoLink: "https://my-portfolio-fzfl.onrender.com/",
     details: {
       overview:
         "This portfolio website was built to showcase my transition from social impact work to software development. It demonstrates my ability to create modern, user-friendly web applications while maintaining a focus on accessibility and performance.",
@@ -482,7 +527,7 @@ const projects = [
         "Frontend Framework": "Vue 3 with Composition API",
         "UI Library": "Vuetify 3",
         "Build Tool": "Vite",
-        Deployment: "Netlify",
+        Deployment: "Render",
         Performance: "Lighthouse score: 95+",
       },
       challenges: [
@@ -500,98 +545,52 @@ const projects = [
       ],
     },
   },
-  {
-    id: 4,
-    title: "Community Impact Tracker",
-    status: "planned",
-    description:
-      "A web application for tracking and visualizing community development initiatives. This project will combine my experience in data collection with modern web technologies to help organizations measure their social impact. Development will begin soon.",
-    image: "/src/assets/projects/impact-tracker-screenshot.jpg",
-    technologies: ["Vue.js", "Node.js", "MongoDB", "Chart.js", "RESTful APIs"],
-    keyFeatures: [
-      "Interactive data visualization",
-      "Customizable impact metrics",
-      "User authentication and role management",
-      "Data export functionality",
-      "Real-time updates and reporting",
-    ],
-    highlights: [
-      "Real-time data visualization for impact metrics",
-      "Secure user authentication and data management",
-      "Customizable reporting and analytics",
-    ],
-    githubLink: "https://github.com/yourusername/impact-tracker",
-    demoLink: "#",
-    details: {
-      overview:
-        "This project aims to create a comprehensive platform for tracking and visualizing community development initiatives. It will help organizations measure their social impact through intuitive dashboards and detailed analytics.",
-      technical: {
-        Frontend: "Vue.js with Vuetify for UI components",
-        Backend: "Node.js with Express",
-        Database: "MongoDB for flexible data storage",
-        Visualization: "Chart.js for interactive graphs",
-        Authentication: "JWT-based secure authentication",
-      },
-      challenges: [
-        {
-          challenge: "Designing an intuitive interface for non-technical users",
-          solution:
-            "Will implement a user-centered design approach with extensive user testing",
-        },
-        {
-          challenge: "Ensuring data accuracy and real-time updates",
-          solution:
-            "Will use WebSocket for real-time updates and implement data validation",
-        },
-      ],
-    },
-  },
-  {
-    id: 5,
-    title: "Learning Management System",
-    status: "planned",
-    description:
-      "A platform for managing and delivering educational content to rural communities. This project will integrate my experience in community development with modern web technologies to make learning more accessible. Development will begin after the Community Impact Tracker.",
-    image: "/src/assets/projects/lms-screenshot.jpg",
-    technologies: ["Vue.js", "Express.js", "MongoDB", "WebSocket", "JWT Auth"],
-    keyFeatures: [
-      "Offline content access",
-      "Progress tracking",
-      "Interactive learning modules",
-      "Community discussion forums",
-      "Mobile-first design",
-    ],
-    highlights: [
-      "Offline-first approach for areas with limited internet",
-      "Interactive learning modules with progress tracking",
-      "Community engagement features",
-    ],
-    githubLink: "https://github.com/yourusername/community-lms",
-    demoLink: "#",
-    details: {
-      overview:
-        "This Learning Management System will focus on making educational content accessible to rural communities, with special attention to offline access and community engagement features.",
-      technical: {
-        Frontend: "Vue.js with offline-first capabilities",
-        Backend: "Express.js with WebSocket support",
-        Database: "MongoDB with offline sync",
-        Authentication: "JWT with role-based access",
-        "Content Delivery": "Progressive Web App features",
-      },
-      challenges: [
-        {
-          challenge: "Implementing reliable offline functionality",
-          solution:
-            "Will use service workers and IndexedDB for offline storage",
-        },
-        {
-          challenge: "Creating engaging learning modules",
-          solution:
-            "Will incorporate interactive elements and gamification features",
-        },
-      ],
-    },
-  },
+  // {
+  //   id: 6,
+  //   title: "Community Impact Tracker",
+  //   status: "planned",
+  //   description:
+  //     "A web application for tracking and visualizing community development initiatives. This project will combine my experience in data collection with modern web technologies to help organizations measure their social impact. Development will begin soon.",
+  //   image: "/src/assets/projects/impact-tracker-screenshot.jpg",
+  //   technologies: ["Vue.js", "Node.js", "MongoDB", "Chart.js", "RESTful APIs"],
+  //   keyFeatures: [
+  //     "Interactive data visualization",
+  //     "Customizable impact metrics",
+  //     "User authentication and role management",
+  //     "Data export functionality",
+  //     "Real-time updates and reporting",
+  //   ],
+  //   highlights: [
+  //     "Real-time data visualization for impact metrics",
+  //     "Secure user authentication and data management",
+  //     "Customizable reporting and analytics",
+  //   ],
+  //   githubLink: "https://github.com/yourusername/impact-tracker",
+  //   demoLink: "#",
+  // },
+  // {
+  //   id: 7,
+  //   title: "Learning Management System",
+  //   status: "planned",
+  //   description:
+  //     "A platform for managing and delivering educational content to rural communities. This project will integrate my experience in community development with modern web technologies to make learning more accessible. Development will begin after the Community Impact Tracker.",
+  //   image: "/src/assets/projects/lms-screenshot.jpg",
+  //   technologies: ["Vue.js", "Express.js", "MongoDB", "WebSocket", "JWT Auth"],
+  //   keyFeatures: [
+  //     "Offline content access",
+  //     "Progress tracking",
+  //     "Interactive learning modules",
+  //     "Community discussion forums",
+  //     "Mobile-first design",
+  //   ],
+  //   highlights: [
+  //     "Offline-first approach for areas with limited internet",
+  //     "Interactive learning modules with progress tracking",
+  //     "Community engagement features",
+  //   ],
+  //   githubLink: "https://github.com/yourusername/community-lms",
+  //   demoLink: "#",
+  // },
 ];
 
 const upcomingProjects = [
